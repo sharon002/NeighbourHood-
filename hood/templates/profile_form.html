@@ -3,7 +3,7 @@
 {% load static %}
 {% block content %}
 <div class="container">
-    <div class="row" style=" background-color: rgb(240, 6, 201);">
+    <div class="row" style=" background-image: url('/static/images/istockphoto-95522458-612x612.jpg');background-repeat: cover;">
         <div class="col-md-4 phone-section">
         </div>
         <div class="col-md-4 form-section">
@@ -17,7 +17,7 @@
 
                 <div class="panel-body">
 
-                    <div class="text-center">
+                    <div class="text-center"style="background-color:black">
                         <h3>Create your profile</h3>
                         <form action="{% url 'create-profile' %}" method="post" enctype="multipart/form-data">
 
